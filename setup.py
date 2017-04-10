@@ -7,5 +7,6 @@ setup(name='shapeshiftio',
       author='A Bit Fan',
       author_email='abitfan@ruggedinbox.com',
       license='MIT',
-      packages=['shapeshiftio', 'requests'],
+      install_requires=['requests'],
+      packages=['shapeshiftio'],
       zip_safe=False)
